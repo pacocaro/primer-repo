@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body{
+	color:			#575c7a;
+	font-family: 	Arial;
+	font-size:		14px;
+	line-height:	1.6em; /*interlineado*/
+	background:		#515673 url("..imagenes/background_1.jpg") repeat 0px 0px;
+}
+
+footer{
+	font-size: 0.85em;
+	color: #9ba0bd;
+	background-color: #575c7a;
+	padding: 10px 10px 10px 0px;	
+}
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #413025;
+	margin:	0 0 .5em 0;
+}
+
+h2{
+	font-size: 1.7em;
+	font-weight: bold;
+	color: 
+	margin:	0 0 1em 0;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #413025;
+	margin:	0 0 1em 0;
+}
+
+p{
+	margin:	0 .5em .75em .5em;
+}
+
+a{
+	color: #766F57;
+}
+
+a:hover{
+	color: #413025;
+}
+
+a.prm{
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 0.5em;
+}
+
+nav a{
+	color: #a6abc5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+nav a:hover{ color: #fff; }
+
+.pagina{
+	max-width:	980px;
+	margin:		0px auto 0px auto;
+	position:	relative;
+	background-color: #fff;
+}
+
+.promo{background-repeat: no-repeat;}
+
+.promo h3{
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.promo p{
+	line-height: 1.2em;
+	font-size: .9em;
+	margin-bottom: .5em;
+}
+
+.promo.uno{ background-image: url("../imagenes/promo_1.jpg"); }
+
+.promo.dos{ background-image: url("../imagenes/promo_2.jpg"); }
+
+.promo.tres{ background-image: url("../imagenes/promo_3.jpg"); }
+
+.clear-fix{clear: both; line-height: 1px;}
